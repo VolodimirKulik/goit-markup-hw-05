@@ -96,6 +96,7 @@ img {
 
 .header-link:hover{
     color:#404bbf;
+    transition: 300ms;
 }
 .header-link:focus{
     color: #404bbf;
@@ -119,6 +120,8 @@ img {
 }
 .header-connect-link:hover{
     color: #404BBF;
+    transition: 300ms;
+    
 }
 .header-connect-link:focus {
     color: #404BBF;
@@ -167,6 +170,7 @@ img {
 .service-btn:hover{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: #404BBF;
+    transition: 300ms;
 }
 
 .skill {
@@ -305,6 +309,7 @@ img {
 }
 .team-link-svg:hover{
     background: #404BBF;
+    transition: 300ms;
 }
 
 /*-------------------SERCH------------------*/
@@ -373,6 +378,7 @@ img {
     background: #404BBF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border: 1px solid #404BBF;
+    transition: 400ms;
 }
 .catalog-list{
     display: flex;
@@ -478,6 +484,7 @@ img {
 }
 .customers-link:hover{
     fill: #404BBF;
+    transition: 300ms;
 }
 .customers-item {
     border: 1px solid #8E8F99;
@@ -560,6 +567,7 @@ img {
 }
 .footer-link-svg:hover{
     background-color: #31D0AA;
+    transition: 300ms;
 }
 .footer-title {
     margin: 0;
@@ -583,6 +591,7 @@ img {
     width: 100%;
     height: 100%;
     background-color: #0303035a;
+    transition: opacity 300ms linear, visibility 300ms linear;
 }
 .modal {
     width:408px;
@@ -594,7 +603,12 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 300ms linear;
+}
+.backdrop.is-hidden .modal{
+    transform: translate(-50%, -50%) scale(0);
+    
 }
 .modal-btn {
     width: 24px;
@@ -605,6 +619,11 @@ img {
     background: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+}
+.modal-btn:hover{
+    background-color: #404BBF;
+    transition:300ms;
+    fill: #FFFFFF;
 }
 
 .close-svg{

@@ -80,6 +80,7 @@ img {
     flex: none;
     order: 0;
     flex-grow: 0;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current {
     color: #404bbf
@@ -96,7 +97,7 @@ img {
 
 .header-link:hover{
     color:#404bbf;
-    transition: 300ms;
+    
 }
 .header-link:focus{
     color: #404bbf;
@@ -117,10 +118,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-connect-link:hover{
     color: #404BBF;
-    transition: 300ms;
+    
     
 }
 .header-connect-link:focus {
@@ -166,11 +168,12 @@ img {
     background: #4D5AE5;
     border-radius: 4px;
     border: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .service-btn:hover{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: #404BBF;
-    transition: 300ms;
+    
 }
 
 .skill {
@@ -306,10 +309,11 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-link-svg:hover{
     background: #404BBF;
-    transition: 300ms;
+    
 }
 
 /*-------------------SERCH------------------*/
@@ -352,6 +356,7 @@ img {
     border-radius: 4px;
     justify-content: center;
     background: #F4F4FD;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-all{
     width: 69px;
@@ -378,7 +383,6 @@ img {
     background: #404BBF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border: 1px solid #404BBF;
-    transition: 400ms;
 }
 .catalog-list{
     display: flex;
@@ -481,10 +485,10 @@ img {
     align-items: center;
     justify-content: center;
     fill: #8e8f99;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover{
     fill: #404BBF;
-    transition: 300ms;
 }
 .customers-item {
     border: 1px solid #8E8F99;
@@ -564,10 +568,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link-svg:hover{
     background-color: #31D0AA;
-    transition: 300ms;
 }
 .footer-title {
     margin: 0;
@@ -619,10 +623,10 @@ img {
     background: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover{
     background-color: #404BBF;
-    transition:300ms;
     fill: #FFFFFF;
 }
 
